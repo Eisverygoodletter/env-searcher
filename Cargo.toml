@@ -12,6 +12,6 @@ categories = ["config"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-dotenv = "*"
+dotenv = "0.15.0"
 [lib]
 doctest = false
