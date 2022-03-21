@@ -23,10 +23,10 @@ use std::env;
 ///     MY_VERY_COOL_KEY_VALUE=wow
 /// ```
 /// the program:
-/// ```rust
-///     use env_searcher::get_env;
-///     let value = get_env("MY_VERY_COOL_KEY_VALUE");
-///     assert_eq!(value.unwrap(), "wow");
+/// ```no_run
+/// use env_searcher::get_env;
+/// let value = get_env("MY_VERY_COOL_KEY_VALUE");
+/// assert_eq!(value.unwrap(), "wow");
 /// ```
 pub fn get_var(key: String) -> Result<String, EnvSearcherError> {
     let real_env_var_res = env::var(&key);

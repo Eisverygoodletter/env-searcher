@@ -13,3 +13,5 @@ categories = ["config"]
 
 [dependencies]
 dotenv = "*"
+[lib]
+doctest = false
