@@ -1,0 +1,15 @@
+[package]
+name = "env-searcher"
+version = "0.1.0"
+edition = "2021"
+authors = ["Eisverygoodletter"]
+description = "A simple crate for when you want to search for an environmental variable from either an .env file or the environment"
+readme = "README.md"
+repository = "https://github.com/Eisverygoodletter/env-searcher/"
+license = "MIT"
+keywords = ["environmental variables", ".env"]
+categories = ["config"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "*"
